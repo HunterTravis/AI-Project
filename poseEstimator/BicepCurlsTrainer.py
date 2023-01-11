@@ -11,7 +11,7 @@ rightbarcolor = (128, 0, 128)
 leftcount = 0
 leftdirection = 1
 
-cap = cv2.VideoCapture("Videos/bicepcurls.mp4")
+cap = cv2.VideoCapture(0)
 detector = pm.poseDetector()
 
 while True:

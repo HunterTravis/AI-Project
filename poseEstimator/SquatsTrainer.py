@@ -5,7 +5,7 @@ import PoseModule as pm
 count = 0
 direction = 1
 
-cap = cv2.VideoCapture("Videos/squats.mp4")
+cap = cv2.VideoCapture(0)
 detector = pm.poseDetector()
 
 while True:
